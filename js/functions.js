@@ -5,3 +5,5 @@ window.addEventListener('load', (event) => {
   alert("hola wtf");    
 
   alert("3 alert");
+
+alert("creo que funciono");
