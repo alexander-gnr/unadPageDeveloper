@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+ font-family: "angsana new","angsana new bold";
+ font-size: 1vw;
+ margin: 0.3em;
+ background-color: #ece9e95c;
+}
+
+header{
+    border: 0.1em #005883 solid;
+    border-radius: 0.5em;
+    width: 100%;
+    background-color: #005883;
+}
+
+#HeaderTitle{
+   display: inline-block;
+   width: 80%;
+   text-align: center;
+   vertical-align: top;
+   margin-top: 7%;
+   color: #fff  ;
+}
+
+#HeaderImg{
+    display: inline-block;
+    width: 15%;
+    margin: 1em 0em;
+    text-align: center;
+    border: #fff solid;
+    border-radius: 1.5em;
+}
+
+header #HeaderImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+}
+nav{
+    margin: 0.5em 0 0.5em 0 ;
+    height: 2em;
+    background-color: #005883;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+.menu {
+    list-style: none;
+    padding: 0px;
+    color:#fff;
+}
+
+.menu_item{
+    display: block;
+    width: 25%;
+    height: 1.9em;
+    float: left;
+}
+
+.menu_item p,.btnMenu{
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    padding: auto;
+    height: 100%;
+}
+
+.menu_item ul {
+    list-style: none;
+    border-radius: 0.3em;
+}
+
+.menu_item ul a{
+    text-decoration: none;
+    display: none;
+    list-style: none;
+    color: #fff ;
+    background-color: #005883;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.menu_item:hover, .btnMenu:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.menu_item:hover > ul a{
+    display: block;
+    position: relative;
+}
+
+.menu_item:hover > ul a:hover{
+    display: block;
+    background-color: #fff;
+    color: #000;
+    border: 0.1em #005883 solid;
+}
+
+section
+{
+ margin: 0.3em;
+ padding: 0em;
+}
+.article_container{
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+article{
+    padding: 0em;
+    margin: 0.3em;
+    border: 0.1em #005883 solid;
+    border-radius: 0.5em;
+}
+.article_Title{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1.5em;
+}
+.article_content{
+    margin: 0em 1em 1em 2em;
+
+}
+.twitter_add{
+    display: inline-block;
+    width: 29%;
+    height: 100%;
+}
+
+footer{
+    padding: 0.5em;
+    margin: 0.3;
+    background-color: #005883;
+    border-radius: 0.5em;
+    height: 1.9em;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block; 
+    margin-left: 0.3em;
+    width: 30%;
+    color: #fff ;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+footer a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.btnMenu:visited, .btnMenu:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnMenu:hover{
+    color: #000;
+}
+
+.article_content img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;    
+}
+
+#author_photo{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+}
+#twitter-widget-0{
+    width: 100% !important;
+    max-height: 35em;
+    max-width: 100%;
+   
+}
+
+.embed_content{
+    margin: 0% 20%;
+}
+
+.eduContent{
+    width: 40em;
+    height: 40em;
+}
+
+.authorList{
+    list-style: none;
+    padding: 0% 25%;
+    font-size: 1.5em;
+}

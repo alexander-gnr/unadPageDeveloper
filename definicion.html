@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Definición y ejemplos de como se debe usar la semántica en HTML 5 para tener una pagina web bien estructurada">
+    <meta name="keywords" content="HTML,semantica, UNAD, OVI, OVA, HTML5 ">
+    <meta name="author" content="Alexander Cuellar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovi HTML 5</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts/FontAwesome/css/all.min.css">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    <script src="./js/functions.js"></script>
+</head>
+<body>
+    <header>
+        <div id="HeaderTitle">
+            <h1>Contenido en HTML</h1>
+        </div>
+        <div id="HeaderImg">
+            <a href="https://www.unad.edu.co/" target="_blank">
+                <img src="./img/Logo_ Manual_Identidad_Institucional.png" alt="Logo UNAD">  
+            </a>
+        </div>
+        
+    </header>
+    <nav>
+        <ul class="menu">
+            <li class="menu_item"> 
+                <a href="./index.html" class="btnMenu "><i class="fas fa-home"></i> Inicio</a>
+            </li>
+            <li class="menu_item">
+                <p> <i class="fas fa-book-open"></i> Conceptos </p>
+                <ul>
+                    <li><a href="#"> <i class="fas fa-check"></i> Definición</a></li>
+                    <li><a href="./ejemplo.html"><i class="fas fa-image"></i> Ejemplo </a></li>
+                </ul>
+            </li>
+            <li class="menu_item">
+                <p><i class="fas fa-play"></i> Recursos</p>
+                <ul>
+                    <li><a href="./queEsHtml5.html"><i class="fas fa-play-circle"></i> Que es Html 5</a></li>
+                    <li><a href="./ejemploPractico.html"><i class="fas fa-play-circle"></i> Ejemplo practico</a></li>
+                </ul>
+            </li>
+            <li class="menu_item">
+                <p><i class="fas fa-tasks"></i> AutoEvaluación</p>
+                <ul>
+                    <li><a href="./activity_1.html"><i class="fas fa-gamepad"></i> Actividad 1</a></li>
+                    <li><a href="./activity_2.html"><i class="fas fa-gamepad"></i> Actividad 2</a></li>
+                    <li><a href="./site_evaluation.html"><i class="fas fa-file-image"></i> Evaluación Sitio</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="article_container">
+            <article>
+                <p class="article_Title">
+                    ¿Que es contenido en HTML?
+                </p>
+                <p class="article_content">
+                    HTML 5 trajo consigo diferentes mejoras ya sea desde los elementes de CSS, en las Apis de JavaScript o en el mismo leguaje HTML
+                    entre ellos la <strong>semántica de código</strong> que nos ayuda a definir las diferentes secciones que va a tener nuestra pagina web, cabe aclarar
+                    que esto solo afecta el contenido de la pagina web por tal motivo se debe realizar dentro de la etiqueta <strong>&lt;body&gt;</strong> 
+                </p>
+                <p class="article_content">
+                    Anteriormente para crear una división de los elementos que conformaba nuestras pagina web con la etiqueta <strong>&lt;div&gt;</strong>, esto no
+                    permitía reconocer con facilidad que contenida se encontraba en esta división. Hoy en día se recomiendo el uso de la semítica
+                    de código para englobar el cierto contenido especifico ya que estas son auto explicativas dado su nombre especifico y 
+                    esto nos ayudara a realizar mantenimiento a nuestra pagina en un futuro además de ayudarnos con el posicionamiento de la 
+                    pagina frente a los buscadores web.
+                    </p>
+            </article>
+            <article>
+            <p class="article_Title">
+                semántica de código
+            </p>
+            <p class="article_content">
+                La semántica de código está conformada por 6 etiquetas las cuales son:
+            </p>
+            <ul class="article_content">
+                <li><strong>&lt;Header&gt;</strong>: Agrupa el contenido de la cabecera en nuestras pagina web.</li>
+                <li><strong>&lt;Nav&gt;</strong>: agrupa cualquier menú de navegación en nuestra página web.</li>
+                <li><strong>&lt;Section&gt;</strong>: define las secciones que va a tener nuestra página web en general suele ser solamente una sección que agrupa todo el contenido (main).</li>
+                <li><strong>&lt;article&gt;</strong>: se usa para definir unidades de contenido que pueden ser independientes unas de otras.</li>
+                <li><strong>&lt;aside&gt;</strong>: contiene información complementaria que no añade gran valor a la temática de la página generalmente usada para poner banners o publicidad.</li>
+                <li><strong>&lt;footer&gt;</strong>: se usa para definir el pie de pagina de la pagina web generalmente usa para añadir información de contactos.</li>
+            </ul>
+            </article>
+            <article>
+                <p class="article_Title">Bibliografía</p>
+                <ul class="article_content">
+                    <li>
+                        García, J. M. B. (2019, 21 octubre). Estructura de HTML5 y para qué se utiliza la semántica del código. 
+                        Blog de arsys.es.
+                        <a href="https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo">
+                            Estructura de HTML5 y para qué se utiliza la semántica del código
+                        </a>
+                    </li>
+                    <li>
+                        HTML5, estructura básica y elementos semánticos. (2020, 20 julio). Eniun. 
+                            <a href="https://www.eniun.com/html5-estructura-basica-elementos-semanticos/">
+                                HTML5, estructura básica y elementos semánticos
+                            </a>
+                    </li>
+                    <li>
+                        Develoteca. (2015, 10 mayo). Curso de HTML5 esencial - Estructura (header y más) [Vídeo]. YouTube. 
+                            <a href="https://www.youtube.com/watch?v=DxumDNXRtpI">
+                                urso de HTML5 esencial - Estructura (header y más)
+                            </a>
+                    </li>
+                </ul>
+            </article>
+        </div>
+        <aside class="twitter_add">
+            <a class="twitter-timeline" data-lang="es"  data-theme="" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </aside>
+    </section>
+    <footer>
+        <a href="./autor.html"><i class="fas fa-user"></i> Autor</a>
+        <a href="./planig.html" target="_blank"><i class="far fa-building"></i> Planning</a>
+    </footer>
+</body>
+</html>
